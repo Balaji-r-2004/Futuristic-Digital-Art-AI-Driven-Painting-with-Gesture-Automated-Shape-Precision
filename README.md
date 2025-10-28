@@ -5,6 +5,28 @@ Built with **Python, OpenCV, and MediaPipe**, this project showcases the power o
 
 ![Virtual Painter Demo](paint.gif)
 
+# 🚀 Features
+
+✅ **Real-Time Hand Tracking** — Detects hand landmarks using MediaPipe with high accuracy.  
+✅ **Air Drawing** — Draw and paint using your index finger — no mouse or touch needed.  
+✅ **Gesture Modes** — Switch between drawing, erasing, and standby mode using simple hand gestures.  
+✅ **Dynamic Brush & Color Control** — Change colors or brush sizes in real time.  
+✅ **Save & Clear Canvas** — Press `S` to save your artwork or `C` to clear the screen.  
+✅ **Custom Training Option** — Extend functionality by training your own gesture dataset.
+
+---
+
+## 🧠 Tech Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Language | Python 3 |
+| Computer Vision | OpenCV |
+| Hand Tracking | MediaPipe |
+| AI / ML | PyTorch, TensorFlow |
+| Data Handling | NumPy, Pickle |
+| Visualization | OpenCV GUI |
+
 ---
 
 ## ⚙️ Getting Started
@@ -27,6 +49,8 @@ When your hand enters the camera frame:
 👉 Index finger movement → Draw
 🤏 Pinch gesture → Change tool
 💾 Press S → Save artwork
+🧹 Press C → Clear screen
+❌ Press Q → Quit
 
 AI-Virtual-Painter/
 │
@@ -51,6 +75,3 @@ Balaji R
 💡 Passionate about Python, AI, and Computer Vision
 https://www.linkedin.com/in/balajir2004/
 https://github.com/Balaji-r-2004
-🧹 Press C → Clear screen
-
-❌ Press Q → Quit
